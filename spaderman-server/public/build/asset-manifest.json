@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.827045f5.chunk.css",
+    "main.js": "/static/js/main.fbf71c03.chunk.js",
+    "main.js.map": "/static/js/main.fbf71c03.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.92ca0607.js",
+    "runtime-main.js.map": "/static/js/runtime-main.92ca0607.js.map",
+    "static/js/2.73b95cef.chunk.js": "/static/js/2.73b95cef.chunk.js",
+    "static/js/2.73b95cef.chunk.js.map": "/static/js/2.73b95cef.chunk.js.map",
+    "static/js/3.ead31b04.chunk.js": "/static/js/3.ead31b04.chunk.js",
+    "static/js/3.ead31b04.chunk.js.map": "/static/js/3.ead31b04.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.827045f5.chunk.css.map": "/static/css/main.827045f5.chunk.css.map",
+    "static/js/2.73b95cef.chunk.js.LICENSE.txt": "/static/js/2.73b95cef.chunk.js.LICENSE.txt",
+    "static/media/GameBoard.css": "/static/media/red-shovel-mini2.f75b031e.png",
+    "static/media/lobby.css": "/static/media/desert-background.80236f29.jpg",
+    "static/media/Game.css": "/static/media/desert-background2.3212fa30.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92ca0607.js",
+    "static/js/2.73b95cef.chunk.js",
+    "static/css/main.827045f5.chunk.css",
+    "static/js/main.fbf71c03.chunk.js"
+  ]
+}
