@@ -5,7 +5,7 @@ let usersBuffer = [];
 module.exports = function initSocket(server) {
   const io = socketIo(server, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: "https://spaderman.herokuapp.com",
       methods: ["GET", "POST"],
     },
   });
