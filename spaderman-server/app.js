@@ -15,8 +15,9 @@ const _DEVMODE = false;
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const roomsRouter = require("./routes/rooms")
-const leaderboardRouter = require("./routes/leaderboard")
+// const leaderboardRouter = require("./routes/leaderboard")
 const authRouter = require("./routes/auth.js");
+const gamesRouter = require("./routes/games")
 
 var app = express();
 const cors = require("cors");
@@ -37,7 +38,7 @@ app.use(
  */
  app.use(
   cors({
-    origin: ["https://spaderman.herokuapp.com"],
+    origin: "https://spaderman.herokuapp.com",
     credentials: true,
     optionsSuccessStatus: 200
   })
@@ -58,7 +59,8 @@ app.use(express.static(path.join(__dirname, "public/build")));
 app.use('/', authRouter)
 app.use('/users', usersRouter);
 app.use('/play', roomsRouter)
-app.use('/leaderboard', leaderboardRouter)
+// app.use('/leaderboard', leaderboardRouter)
+app.use("/games", gamesRouter)
 
 
 //const socketServer = require("./socket")(app);
